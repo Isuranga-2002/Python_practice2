@@ -7,7 +7,7 @@ with open('Bestseller - Sheet1.csv', 'r', encoding='utf8') as file:
     # Read the header row first
     header = next(reader)
     
-    # Assuming there's a column named 'Sales in millions'
+    # Assuming there's a column named 'sales in millions'
     sales_index = header.index('sales in millions')
     
     # Initialize variables to track the bestseller
