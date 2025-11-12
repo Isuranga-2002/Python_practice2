@@ -9,4 +9,5 @@ squared_numbers = [num ** 2 for num in numbers]
 
 # Displaying the outcomes
 print('Original Numbers:', numbers)
-print('Squared Numbers:', squared_numbers)
+print('Squared Numbers(Without using comprehensions):', squares)
+print('Squared Numbers(With using comprehensions):', squared_numbers)
