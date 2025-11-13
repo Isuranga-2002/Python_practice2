@@ -29,3 +29,5 @@ def add(a, b):
 Summation_in_seconds = reduce(add, converted_to_seconds)
 
 print(f"Complete time: {Summation_in_seconds}")
+
+#Comented for a commit
